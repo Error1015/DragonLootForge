@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "dragonlootforge:item/dragon_shovel"
+  }
+}

@@ -1,0 +1,31 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "dragonlootforge:dragon_anvil",
+            "dragonlootforge:dragon_axe",
+            "dragonlootforge:dragon_boots",
+            "dragonlootforge:dragon_chestplate",
+            "dragonlootforge:dragon_helmet",
+            "dragonlootforge:dragon_hoe",
+            "dragonlootforge:dragon_leggings",
+            "dragonlootforge:dragon_pickaxe",
+            "dragonlootforge:dragon_shovel",
+            "dragonlootforge:dragon_sword"
+        ]
+    },
+    "criteria": {
+        "dragon_recipes": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "dragonlootforge:dragon_scale"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

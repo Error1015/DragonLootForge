@@ -1,0 +1,21 @@
+{
+    "replace": false,
+    "values": [
+        "dragonlootforge:dragon_scale",
+        "dragonlootforge:dragon_helmet",
+        "dragonlootforge:dragon_chestplate",
+        "dragonlootforge:dragon_leggings",
+        "dragonlootforge:dragon_boots",
+        "dragonlootforge:upgraded_dragon_chestplate",
+        "dragonlootforge:dragon_pickaxe",
+        "dragonlootforge:dragon_shovel",
+        "dragonlootforge:dragon_axe",
+        "dragonlootforge:dragon_hoe",
+        "dragonlootforge:dragon_sword",
+        "dragonlootforge:dragon_bow",
+        "dragonlootforge:dragon_crossbow",
+        "dragonlootforge:dragon_trident",
+        "dragonlootforge:dragon_anvil",
+        "dragonlootforge:dragon_horse_armor"
+    ]
+}

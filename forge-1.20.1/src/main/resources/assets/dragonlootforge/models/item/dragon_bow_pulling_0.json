@@ -1,0 +1,6 @@
+{
+    "parent": "dragonlootforge:item/dragon_bow",
+    "textures": {
+        "layer0": "dragonlootforge:item/dragon_bow_pulling_0"
+    }
+}

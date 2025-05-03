@@ -1,0 +1,6 @@
+{
+    "parent": "dragonlootforge:item/dragon_crossbow",
+    "textures": {
+        "layer0": "dragonlootforge:item/dragon_crossbow_arrow"
+    }
+}
