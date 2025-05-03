@@ -84,7 +84,9 @@ configure<MixinExtension> {
 
 sourceSets.main.get().resources.srcDir("src/generated/resources")
 
-repositories {}
+repositories {
+
+}
 
 dependencies {
     minecraft("net.minecraftforge:forge:${minecraft_version}-${forge_version}")
@@ -103,8 +105,16 @@ tasks
     .withType<ProcessResources>()
     .configureEach {
         val replaceProperties = mapOf(
-            "minecraft_version" to minecraft_version, "minecraft_version_range" to minecraft_version_range, "forge_version" to forge_version, "forge_version_range" to forge_version_range,
-            "loader_version_range" to loader_version_range, "mod_id" to mod_id, "mod_name" to mod_name, "mod_license" to mod_license, "mod_version" to mod_version, "mod_authors" to mod_authors,
+            "minecraft_version" to minecraft_version,
+            "minecraft_version_range" to minecraft_version_range,
+            "forge_version" to forge_version,
+            "forge_version_range" to forge_version_range,
+            "loader_version_range" to loader_version_range,
+            "mod_id" to mod_id,
+            "mod_name" to mod_name,
+            "mod_license" to mod_license,
+            "mod_version" to mod_version,
+            "mod_authors" to mod_authors,
             "mod_description" to mod_description
         )
         inputs.properties(replaceProperties)
